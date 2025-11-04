@@ -3,13 +3,20 @@ body{
     overflow-x: hidden;
     background-image: url(background_blue.jpg);
 }
+.crdecks-titulo{
+    margin-top: 10%;
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans';
+    font-size: 80px;
+
+}
 .contenedor-inicio{
-    margin-top: 15rem;
+    margin-top: 10%;
     height : 450px;
     width: 700px;
     border-radius: 15px;
     padding: 20px;
-    background-color: rgb(45, 89, 220)
+    background-color: rgba(45, 89, 220, 0.457)
 }
 .contenedor-inicio2{
     border-radius: 15px;
