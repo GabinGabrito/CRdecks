@@ -17,3 +17,10 @@ al igual que las imagenes en el html
     height: 200px;
     width: auto;
 }
+
+
+.Promedio{
+    margin-top: 50px;
+    font-size: 20px;
+    color: rgba(245, 245, 245, 0.792);
+}
