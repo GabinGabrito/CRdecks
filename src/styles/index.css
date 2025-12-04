@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+@font-face{
+    font-family: 'ClashFuente';
+    src: url('/Fuente/YouBlockhead.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    overflow-x: hidden;
+    background-image: url('/img/FondosIconos/background_blue.jpg');
+}
+.crdecks-titulo{
+    margin-top: 10%;
+}
+.crdecks-titulo h1{
+    color: rgb(255, 255, 255);
+    font-family: 'ClashFuente';
+    font-size: 60px;
+}
+.crdecks-titulo img{
+    height:100px;
+    margin-left: 20px;
+}
+.contenedor-inicio{
+    margin-top: 8%;
+    height : 450px;
+    width: 700px;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgba(45, 89, 220, 0.457)
+}
+.contenedor-inicio2{
+    border-radius: 15px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(255, 255, 255)
+}
+.contenedor-inicio2 h3{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+.contenedor-forms{
+    margin-top: 50px;
+}
+
+.form-control{
+    height: 70px;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: 'Open Sans';
+}
+
+.form-control::placeholder{
+    font-family: 'Open Sans';
+    font-weight: bold;
+    text-align: center;
+}
+
+.password{
+    margin-top: 20px;
+}
+
+.password-container {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.password-container input {
+    padding-right: 45px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    color: #6c757d;
+    font-size: 1.2rem;
+}
+
+.toggle-password:hover {
+    color: #000000;
+}
+
+.Boton-Inicio{
+    margin-top: 30px;
+    height: 50px;
+    width: auto;
+    background-color: rgb(45, 89, 220);
+    color: white;
+    font-family: 'Open Sans';
+}
